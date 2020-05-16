@@ -1,0 +1,16 @@
+[
+	{ "s": "VA", "p": [3] },
+	{ "s": "VALIDATION", "p": [3] },
+	{ "s": "VALIDATION/ANNULATION", "p": [3] },
+	{ "s": "VALIDE", "p": [3] },
+	{ "s": "VALIDER", "p": [3] },
+	{ "s": "VENDEUR", "p": [3, 2, 4] },
+	{ "s": "VENDRE", "p": [3] },
+	{ "s": "VENTE", "p": [3, 4, 2, 5] },
+	{ "s": "VENTE/JOURNAL", "p": [5, 4] },
+	{ "s": "VENTE/VENTE", "p": [3] },
+	{ "s": "VENTES", "p": [3, 4] },
+	{ "s": "VERSION", "p": [5] },
+	{ "s": "VISIONNER", "p": [5, 3] },
+	{ "s": "VOIR", "p": [5] }
+]

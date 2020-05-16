@@ -1,0 +1,2 @@
+﻿Data Source=NABIL-PC\SQLEXPRESS;Initial Catalog=az;Integrated Security=True;Encrypt=False;TrustServerCertificate=False
+Pharmacie Oued Smar

@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B50C1ADB-91BB-4E72-B0A0-874D12E8F4F0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Projet2cpiEquipe4.My.MyApplication</StartupObject>
+    <RootNamespace>Projet2cpiEquipe4</RootNamespace>
+    <AssemblyName>Projet2cpiEquipe4</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Projet2cpiEquipe4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Projet2cpiEquipe4.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.TeamFoundation.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.TeamFoundation.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.TeamFoundation.Diff, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Services.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Services.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.Services.WebApi, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="VIBlend.WinForms.Controls, Version=10.1.0.0, Culture=neutral, PublicKeyToken=6feea38fef5ea0cf, processorArchitecture=MSIL" />
+    <Reference Include="VIBlend.WinForms.Utilities, Version=10.1.0.0, Culture=neutral, PublicKeyToken=970a5af59bc48043" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Achat_Achat.Designer.vb">
+      <DependentUpon>Achat_Achat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_Achat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat_Commande.Designer.vb">
+      <DependentUpon>Achat_Commande.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_Commande.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseNotFound.Designer.vb">
+      <DependentUpon>BaseNotFound.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BaseNotFound.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseSelect.Designer.vb">
+      <DependentUpon>BaseSelect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BaseSelect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompteHis.Designer.vb">
+      <DependentUpon>CompteHis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompteHis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompteModifier.Designer.vb">
+      <DependentUpon>CompteModifier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompteModifier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompteRenit.Designer.vb">
+      <DependentUpon>CompteRenit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompteRenit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="initial.Designer.vb">
+      <DependentUpon>initial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="initial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pharm_commande.vb" />
+    <Compile Include="pharm_con.vb" />
+    <Compile Include="pharm_connected.designer.vb">
+      <DependentUpon>pharm_connected.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pharm_connected.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pharm_formulaire.Designer.vb">
+      <DependentUpon>pharm_formulaire.vb</DependentUpon>
+    </Compile>
+    <Compile Include="pharm_formulaire.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accueil.Designer.vb">
+      <DependentUpon>Accueil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Accueil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat.vb" />
+    <Compile Include="Achat_AjtFact.Designer.vb">
+      <DependentUpon>Achat_AjtFact.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_AjtFact.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat_bon.Designer.vb">
+      <DependentUpon>Achat_bon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_bon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat_bonDetaille.Designer.vb">
+      <DependentUpon>Achat_bonDetaille.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_bonDetaille.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat_CommandeAjout.Designer.vb">
+      <DependentUpon>Achat_CommandeAjout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_CommandeAjout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat_FactureDetaille.Designer.vb">
+      <DependentUpon>Achat_FactureDetaille.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_FactureDetaille.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat_finCommande.designer.vb">
+      <DependentUpon>Achat_finCommande.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_finCommande.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat_ProduitAjout.Designer.vb">
+      <DependentUpon>Achat_ProduitAjout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_ProduitAjout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achat_warning.Designer.vb">
+      <DependentUpon>Achat_warning.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Achat_warning.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bon.vb" />
+    <Compile Include="Commande.vb" />
+    <Compile Include="Compte.vb" />
+    <Compile Include="CompteAffichage.Designer.vb">
+      <DependentUpon>CompteAffichage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompteAffichage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompteAjout.Designer.vb">
+      <DependentUpon>CompteAjout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompteAjout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompteConnect.Designer.vb">
+      <DependentUpon>CompteConnect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompteConnect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompteFirstConnect.Designer.vb">
+      <DependentUpon>CompteFirstConnect.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompteFirstConnect.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompteSupp.Designer.vb">
+      <DependentUpon>CompteSupp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CompteSupp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataBase.vb" />
+    <Compile Include="Facture.vb" />
+    <Compile Include="Lot.vb" />
+    <Compile Include="Monnaie.Designer.vb">
+      <DependentUpon>Monnaie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Monnaie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produitt.vb" />
+    <Compile Include="ProgressBar.Designer.vb">
+      <DependentUpon>ProgressBar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProgressBar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestAjout.Designer.vb">
+      <DependentUpon>RestAjout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RestAjout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestMain.Designer.vb">
+      <DependentUpon>RestMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RestMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestOperation.vb" />
+    <Compile Include="RestVente.Designer.vb">
+      <DependentUpon>RestVente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RestVente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Launch.Designer.vb">
+      <DependentUpon>Launch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Launch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.vb">
+      <DependentUpon>menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Precedent.vb" />
+    <Compile Include="Stats.Designer.vb">
+      <DependentUpon>Stats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock.Designer.vb">
+      <DependentUpon>Stock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stock_Verification.vb" />
+    <Compile Include="TEMP.Designer.vb">
+      <DependentUpon>TEMP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TEMP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vente.Designer.vb">
+      <DependentUpon>Vente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Vente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenteCloture.Designer.vb">
+      <DependentUpon>VenteCloture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VenteCloture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenteEqu.Designer.vb">
+      <DependentUpon>VenteEqu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VenteEqu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenteFacture.Designer.vb">
+      <DependentUpon>VenteFacture.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VenteFacture.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenteFin.Designer.vb">
+      <DependentUpon>VenteFin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VenteFin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenteRecherche.Designer.vb">
+      <DependentUpon>VenteRecherche.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VenteRecherche.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VenteValidation.Designer.vb">
+      <DependentUpon>VenteValidation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VenteValidation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Achat_Achat.resx">
+      <DependentUpon>Achat_Achat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achat_Commande.resx">
+      <DependentUpon>Achat_Commande.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseNotFound.resx">
+      <DependentUpon>BaseNotFound.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseSelect.resx">
+      <DependentUpon>BaseSelect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteHis.resx">
+      <DependentUpon>CompteHis.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteModifier.resx">
+      <DependentUpon>CompteModifier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteRenit.resx">
+      <DependentUpon>CompteRenit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="initial.resx">
+      <DependentUpon>initial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pharm_connected.resx">
+      <DependentUpon>pharm_connected.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pharm_formulaire.resx">
+      <DependentUpon>pharm_formulaire.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accueil.resx">
+      <DependentUpon>Accueil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achat_AjtFact.resx">
+      <DependentUpon>Achat_AjtFact.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achat_bon.resx">
+      <DependentUpon>Achat_bon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achat_bonDetaille.resx">
+      <DependentUpon>Achat_bonDetaille.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achat_CommandeAjout.resx">
+      <DependentUpon>Achat_CommandeAjout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achat_FactureDetaille.resx">
+      <DependentUpon>Achat_FactureDetaille.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achat_finCommande.resx">
+      <DependentUpon>Achat_finCommande.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achat_ProduitAjout.resx">
+      <DependentUpon>Achat_ProduitAjout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Achat_warning.resx">
+      <DependentUpon>Achat_warning.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteAffichage.resx">
+      <DependentUpon>CompteAffichage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteAjout.resx">
+      <DependentUpon>CompteAjout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteConnect.resx">
+      <DependentUpon>CompteConnect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteFirstConnect.resx">
+      <DependentUpon>CompteFirstConnect.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompteSupp.resx">
+      <DependentUpon>CompteSupp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monnaie.resx">
+      <DependentUpon>Monnaie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgressBar.resx">
+      <DependentUpon>ProgressBar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestAjout.resx">
+      <DependentUpon>RestAjout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestMain.resx">
+      <DependentUpon>RestMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestVente.resx">
+      <DependentUpon>RestVente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Launch.resx">
+      <DependentUpon>Launch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stats.resx">
+      <DependentUpon>Stats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stock.resx">
+      <DependentUpon>Stock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TEMP.resx">
+      <DependentUpon>TEMP.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vente.resx">
+      <DependentUpon>Vente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenteCloture.resx">
+      <DependentUpon>VenteCloture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenteEqu.resx">
+      <DependentUpon>VenteEqu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenteFacture.resx">
+      <DependentUpon>VenteFacture.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenteFin.resx">
+      <DependentUpon>VenteFin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenteRecherche.resx">
+      <DependentUpon>VenteRecherche.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenteValidation.resx">
+      <DependentUpon>VenteValidation.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alert-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-circle-outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\content-save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter-remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-circle-outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\content-save %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup-restore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-circle-outline %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus-box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close-circle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-plus %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-plus %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket-fill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket-fill %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket-fill %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket-unfill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket-unfill %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-minus %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-plus %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-remove %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-settings-variant.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-settings-variant %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-settings-variant %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account-settings-variant %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter-outline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\door-closed %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\basket %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart-plus %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Commandeam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reseaux.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stocks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VendreProd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Commandeam_180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reseaux_180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stocks_180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VendreProd_180.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

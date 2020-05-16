@@ -1,0 +1,236 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Projet2cpiEquipe4
+</name>
+</assembly>
+<members>
+<member name="P:Projet2cpiEquipe4.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.Culture">
+	<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_minus">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_minus__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_plus">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_plus__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_remove">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_remove__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_settings_variant">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_settings_variant__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_settings_variant__2_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.account_settings_variant__3_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.alert_circle">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.backup_restore">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.basket">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.basket__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.basket_fill">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.basket_fill__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.basket_fill__2_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.basket_unfill">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.basket_unfill__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.cart">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.cart__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.cart_off">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.cart_plus">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.cart_plus__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.cart_plus__2_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.cart_plus__3_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.check_circle">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.close_circle">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.close_circle_outline">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.Commandeam">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.Commandeam_180">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.content_save">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.content_save__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.delete">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.delete__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.delete_circle">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.door_closed__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.filter">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.filter_outline">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.filter_remove">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.LOGO">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.LOGO1">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.magnify">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.plus_box">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.plus_circle">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.plus_circle_outline">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.plus_circle_outline__1_">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.Reseaux">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.Reseaux_180">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.Stocks">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.Stocks_180">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.VendreProd">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Projet2cpiEquipe4.My.Resources.Resources.VendreProd_180">
+	<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Projet2cpiEquipe4.My.Resources.Resources">
+	<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+</members>
+</doc>

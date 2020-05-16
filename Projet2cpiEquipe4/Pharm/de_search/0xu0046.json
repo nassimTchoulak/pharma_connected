@@ -1,0 +1,12 @@
+[
+	{ "s": "FACILITER", "p": [3] },
+	{ "s": "FACTURATION", "p": [5] },
+	{ "s": "FACTURE", "p": [3, 5, 4, 2] },
+	{ "s": "FAIRE", "p": [12, 11, 10, 9, 8, 7, 6, 3] },
+	{ "s": "FAIT", "p": [3, 2] },
+	{ "s": "FENETRE", "p": [3] },
+	{ "s": "FILTRE", "p": [4] },
+	{ "s": "FILTRER", "p": [4] },
+	{ "s": "FORMULAIRE", "p": [3] },
+	{ "s": "FOURNIT", "p": [3, 2] }
+]

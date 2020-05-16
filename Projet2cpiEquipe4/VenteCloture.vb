@@ -1,0 +1,10 @@
+﻿Public Class VenteCloture
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Accueil.Show()
+        Vente.Dispose()
+        Vente.Show()
+        Accueil.Hide()
+        Me.Close()
+    End Sub
+End Class

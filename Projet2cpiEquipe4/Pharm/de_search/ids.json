@@ -1,0 +1,14 @@
+{
+	"1": ["1. Aide... La licence Advanced est obligatoire !", "aide_pharma_2.htm"],
+	"2": ["Ve... La licence Advanced est obligatoire !", "vente.htm"],
+	"3": ["Vente au... La licence Advanced est obligatoire !", "vente_au_comptoir.htm"],
+	"4": ["Journal ... La licence Advanced est obligatoire !", "journal_de_vente.htm"],
+	"5": ["Factu... La licence Advanced est obligatoire !", "facturation.htm"],
+	"6": ["Comm... La licence Advanced est obligatoire !", "commande.htm"],
+	"7": ["Ac... La licence Advanced est obligatoire !", "achat.htm"],
+	"8": ["Resti... La licence Advanced est obligatoire !", "restitution.htm"],
+	"9": ["Pharm... La licence Advanced est obligatoire !", "pharmacies.htm"],
+	"10": ["Com... La licence Advanced est obligatoire !", "comptes.htm"],
+	"11": ["Statis... La licence Advanced est obligatoire !", "statistiques.htm"],
+	"12": ["Déma... La licence Advanced est obligatoire !", "demarrage.htm"]
+}

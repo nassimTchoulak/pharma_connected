@@ -1,0 +1,14 @@
+[
+	{ "s": "EFFECTUER", "p": [3] },
+	{ "s": "EN", "p": [3, 5, 4, 2] },
+	{ "s": "ENCAISSE", "p": [3, 2] },
+	{ "s": "ENREGISTER", "p": [3] },
+	{ "s": "ENREGISTRER", "p": [3] },
+	{ "s": "ENTRE", "p": [3, 2] },
+	{ "s": "ENTREZ", "p": [3] },
+	{ "s": "EQUIVALENT", "p": [3] },
+	{ "s": "ERREUR", "p": [3] },
+	{ "s": "EST", "p": [3] },
+	{ "s": "ET", "p": [3, 2, 12, 11, 10, 9, 8, 7, 6] },
+	{ "s": "EXPRIME", "p": [3, 2] }
+]
